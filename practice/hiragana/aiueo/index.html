@@ -1,0 +1,297 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Learn Kanji</title>
+
+<link href="../../../css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="../../../css/kanji.css" rel="stylesheet" type="text/css">
+<link href="../../../css/menus.css" rel="stylesheet" type="text/css">
+
+<link href='https://fonts.googleapis.com/css?family=Walter+Turncoat' rel='stylesheet' type='text/css'>
+
+<link rel="shortcut icon" href="../../../images/icon.ico" />
+
+<script src="../../../js/respond.min.js"></script>
+<script src="../../../js/jquery-1.11.1.js"></script>
+
+<script src="../../../js/raphael.min.js"></script>
+<script src="../../../js/dmak.js"></script>
+<script src="../../../js/dmakLoader.js"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-9761286-18', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body>
+<nav id="mobile_nav" class="fluid hide_tablet hide_desktop">
+		<ul id="list_mobile_nav" class="fluid fluidList">
+			<li class="item_list_mobile_nav"><a href="../../../">Home</a></li>
+			<li class="item_list_mobile_nav mobile_dropdown">
+				<input type="checkbox" />
+				<a href="#" data-toggle="mobile_dropdown">Lessons</a>
+				<ul class="fluid fluidList mobile_dropdown-menu">
+					<li><a href="../../../lessons/kanji/numbers/1-10">Kanji</a></li>
+                    <li><a href="../../../lessons/hiragana/aiueo">Hiragana</a></li>
+					<li><a href="../../../lessons/katakana/aiueo">Katakana</a></li>
+				</ul>
+			</li>
+			<li class="item_list_mobile_nav mobile_dropdown">
+				<input type="checkbox" />
+				<a href="#" data-toggle="mobile_dropdown">Practice</a>
+				<ul class="fluid fluidList mobile_dropdown-menu">
+					<li><a href="../../hiragana/aiueo">Hiragana</a></li>
+					<li><a href="../../katakana/aiueo">Katakana</a></li>
+				</ul>
+			</li>
+			<li class="item_list_mobile_nav"><a href="http://www.youtube.com/channel/UC51gxSowZE5MkdW2LSDBDAw?sub_confirmation=1">Videos</a></li>
+			<li class="item_list_mobile_nav mobile_dropdown">
+            	<input type="checkbox" />
+                <a href="#" data-toggle="mobile_dropdown">Feedback</a>
+                <ul class="fluid fluidList mobile_dropdown-menu">
+                	<li><a href="../../../survey/jp"><span class="jp">日本語</span></a></li>
+                    <li><a href="../../../survey/en">English</a></li>
+                </ul>
+            </li>
+		</ul>
+</nav>
+
+<div class="slideshow">
+    <figure class="bg" style="background-image:url(../../../images/torii_80_1045.jpg)"></figure>
+    <figure class="bg" style="background-image:url(../../../images/yorunohashi_80_1045.jpg)"></figure>
+    <figure class="bg" style="background-image:url(../../../images/sakura_30_1045.jpg)"></figure>
+    <figure class="bg" style="background-image:url(../../../images/onigawara_80_1045.jpg)"></figure>
+    <figure class="bg" style="background-image:url(../../../images/sora_80_1045.jpg)"></figure>
+</div>
+<div id="wrapper">
+<div class="gridContainer clearfix">
+	<div id="head_container_1" class="hide_desktop hide_tablet">
+        <div id="head_container_2">
+            <header id="mobile_header" class="fluid">
+                <div>
+                    <figure>
+                        <img class="header_img" src="../../../images/header_20160121.jpg" /><!--1488x155-->
+                    </figure>
+                </div>
+            </header>
+            <div id="menu_button"></div>
+        </div>
+    </div>
+    <div id="mobile_social_nav" class="fluid hide_desktop hide_tablet">
+		<ul>
+			<li><a href="https://twitter.com/kanjivideos" target="_blank"><img src="../../../images/twitter_20.png" /></a></li>
+			<li><a href="https://plus.google.com/u/0/b/108721498261595166011/108721498261595166011/" target="_blank"><img src="../../../images/gp_20.png" style="background-color:#FFF;" /></a></li>
+			<li><a href="https://www.facebook.com/Learn-Kanji-1049666608407649/" target="_blank"><img src="../../../images/fb_29.png" /></a></li>
+			<li><a href="http://www.youtube.com/channel/UC51gxSowZE5MkdW2LSDBDAw?sub_confirmation=1" target="_blank"><img src="../../../images/yt_24.png" /></a></li>
+		</ul>
+	</div>
+     
+	<header id="header" class="fluid hide_mobile">
+    	<div>
+            <figure>
+                <img class="header_img" src="../../../images/banner_slim.jpg" /><!--1488x145, originally 1488x155-->
+            </figure>
+        </div>
+		<nav id="main_nav" class="fluid">
+            <ul id="list_main_nav" class="fluid fluidList">
+                <li class="item_list_main_nav"><a href="../../../">Home</a></li>
+                <li class="item_list_main_nav dropdown">
+                    <input type="checkbox" />
+                    <a href="#" data-toggle="dropdown">Lessons</a>
+                    <ul class="fluid fluidList dropdown-menu">
+                        <li><a href="../../../lessons/kanji/numbers/1-10">Kanji</a></li>
+                    	<li><a href="../../../lessons/hiragana/aiueo">Hiragana</a></li>
+						<li><a href="../../../lessons/katakana/aiueo">Katakana</a></li>
+                    </ul>
+                </li>
+                <li class="item_list_main_nav dropdown">
+                    <input type="checkbox" />
+                    <a href="#" data-toggle="dropdown">Practice</a>
+                    <ul class="fluid fluidList dropdown-menu">
+						<li><a href="../../hiragana/aiueo">Hiragana</a></li>
+						<li><a href="../../katakana/aiueo">Katakana</a></li>
+                    </ul>
+                </li>
+                <li class="item_list_main_nav"><a href="http://www.youtube.com/channel/UC51gxSowZE5MkdW2LSDBDAw?sub_confirmation=1">Videos</a></li>
+                <li class="item_list_main_nav dropdown">
+                    <input type="checkbox" />
+                    <a href="#" data-toggle="dropdown">Feedback</a>
+                    <ul class="fluid fluidList dropdown-menu">
+                        <li><a href="../../../survey/jp"><span class="jp">日本語</span></a></li>
+                        <li><a href="../../../survey/en">English</a></li>
+                    </ul>
+                </li>
+            </ul>
+		</nav>
+        <nav id="social_nav" class="fluid">
+            <ul>
+                <li><a href="http://www.youtube.com/channel/UC51gxSowZE5MkdW2LSDBDAw?sub_confirmation=1" target="_blank"><img src="../../../images/yt_48.png" /></a></li>
+                <li><a href="https://www.facebook.com/Learn-Kanji-1049666608407649/" target="_blank"><img src="../../../images/fb_50.png" /></a></li>
+                <li><a href="https://plus.google.com/u/0/b/108721498261595166011/108721498261595166011/" target="_blank"><img src="../../../images/gp_40.png" style="background-color: #FFF;" /></a></li>
+                <li><a href="https://twitter.com/kanjivideos" target="_blank"><img src="../../../images/twitter_40.png" /></a></li>
+            </ul>
+		</nav>
+    </header>
+    
+    <div id="character_pop"></div>
+    
+	<article class="article_off_center">
+        <div class="spacer hide_desktop hide_tablet"></div>
+        <div class="ad2 hide_desktop hide_tablet">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- kanjivideos.com responsive ad 1 -->
+                <ins class="adsbygoogle"
+                     style="display:block;background:none;"
+                     data-ad-client="ca-pub-3022696282840036"
+                     data-ad-slot="4094958307"
+                     data-ad-format="auto"></ins>
+            <script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+        </div>
+        <div class="spacer hide_desktop hide_tablet"></div>
+    	<div class="content_header"><p class="study_header">a i u e o<span class="jp"> (あいうえお)</span></p></div>
+        <div id="study_container">
+            <div class="download_container">
+                <a target="_blank" href="../../../download/hiragana/hiragana_aiueo_letter.pdf" class="download_button en">Practice Sheet (8.5x11)</a>
+                <a target="_blank" href="../../../download/hiragana/hiragana_aiueo_a4.pdf" class="download_button en">Practice Sheet (A4)</a>
+            </div>
+            <div class="study_body">
+            	<div class="character">
+                    <p class="jp" style="font-size:64px;">あ</p>
+                    <p class="en" style="font-size:18px;">In the bottom right part of this character you can see the letter “A”, which is how the character is spelled.</p>
+                    <figure class="play">
+                        <button onClick="draw('WWhUEoMeQ6s',8,26)"></button>
+                    </figure>
+                </div>
+                <div class="character">
+                    <p class="jp" style="font-size:64px;">い</p>
+                    <p class="en" style="font-size:18px;">This character looks like the letter “i” twice, similar to the end of the word “Hawaii”. It sounds like the “ee” sound at the end of “Hawaii”.</p>
+                    <figure class="play">
+                        <button onClick="draw('WWhUEoMeQ6s',27,36)"></button>
+                    </figure>
+                </div>
+                <div class="character">
+                    <p class="jp" style="font-size:64px;">う</p>
+                    <p class="en" style="font-size:18px;">Imagine an older person bending down to pick something up and groaning “oo!”. This character is spelled “u” and sounds like “oo”.</p>
+                    <figure class="play">
+                        <button onClick="draw('WWhUEoMeQ6s',39,48)"></button>
+                    </figure>
+                </div>
+                <div class="character">
+                    <p class="jp" style="font-size:64px;">え</p>
+                    <p class="en" style="font-size:18px;">Imagine that this is an exotic bird with feathers on its head, sitting down looking to the left. The character is spelled “e” like the beginning of “exotic”.</p>
+                    <figure class="play">
+                        <button onClick="draw('WWhUEoMeQ6s',51,65)"></button>
+                    </figure>
+                </div>
+                <div class="character">
+                    <p class="jp" style="font-size:64px;">お</p>
+                    <p class="en" style="font-size:18px;">Imagine an olive with a toothpick sticking up out of the top. This character is spelled “o” like the first letter in “olive”.</p>
+                    <figure class="play">
+                        <button onClick="draw('WWhUEoMeQ6s',68,82)"></button>
+                    </figure>
+            	</div>
+            </div>
+			<div class="page_container">
+				<button class="page_button" onClick="window.location.href='../wawon/index.html'">
+                	<span style="margin-right:10px;">« </span><span class="en" style="font-size:22px;">wa wo n</span>
+                </button>
+                <button class="page_button" onClick="window.location.href='../kakikukeko/index.html'">
+                	<span class="en" style="font-size:22px;">ka ki ku ke ko</span><span style="margin-left:10px;"> »</span>
+                </button>
+			</div>
+        </div>
+        <div class="spacer hide_mobile"></div>
+        <div class="ad2 hide_mobile">
+			<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+                <!-- kanjivideos.com responsive ad 1 -->
+                <ins class="adsbygoogle"
+                     style="display:block;background:none;"
+                     data-ad-client="ca-pub-3022696282840036"
+                     data-ad-slot="4094958307"
+                     data-ad-format="auto"></ins>
+            <script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script>
+        </div>
+        <div class="spacer"></div>
+        <div class="content_header"><p class="study_header">more hiragana practice</p></div>
+        <div id="index_container">
+            <a href="../aiueo" class="index en">a i u e o</a>
+            <a href="../kakikukeko" class="index en">ka ki ku ke ko</a>
+            <a href="../sashisuseso" class="index en">sa shi su se so</a>
+            <a href="../tachitsuteto" class="index en">ta chi tsu te to</a>
+            <a href="../naninuneno" class="index en">na ni nu ne no</a>
+            <a href="../hahihuheho" class="index en">ha hi hu he ho</a>
+            <a href="../mamimumemo" class="index en">ma mi mu me mo</a>
+            <a href="../yayuyo" class="index en">ya yu yo</a>
+            <a href="../rarirurero" class="index en">ra ri ru re ro</a>
+            <a href="../wawon" class="index en">wa wo n</a>
+        </div>
+    </article>
+	<div id="footer">
+    	©2015-2017 Learn Kanji
+    </div>
+</div>
+</div>
+<script src="../../../js/kanji-video-play.js" type="text/javascript"></script>
+<script src="../../../js/menu-close.js" type="text/javascript"></script>
+<script src="../../../js/hammer.min.js"></script>
+<script src="../../../js/better-simple-slideshow.min.js"></script>
+<script>
+var opts = {
+    auto : {
+        speed : 16000, 
+        pauseOnHover : false
+    },
+    fullScreen : false, 
+    swipe : false
+};
+var opts2 = {
+    auto : {
+        speed : 5500, 
+        pauseOnHover : false
+    },
+    fullScreen : false, 
+    swipe : false
+};
+makeBSS('.slideshow', opts);
+<!--makeBSS('.slideshow', opts);-->
+<!--makeBSS('.slideshow_mobile', opts2);-->
+</script>
+<script>
+	$(document).ready(function(pushMenu) {
+        $mobile_nav = $('#mobile_nav');
+		$wrapper = $('#wrapper');
+		$menu_button = $('#head_container_2');
+		$body = $('body');
+		$html = $('html');
+		
+		$menu_button.click(function() {
+			$mobile_nav.toggleClass('mobile_nav_push');
+			$wrapper.toggleClass('wrapper_push');
+			$body.toggleClass('body_push');
+			$html.toggleClass('html_push');
+		});
+    });
+</script>
+<script src="https://use.typekit.net/mms8kwf.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+</body>
+</html>
