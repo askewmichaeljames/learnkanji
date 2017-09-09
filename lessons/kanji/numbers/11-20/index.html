@@ -31,7 +31,7 @@
 </script>
 </head>
 
-<body>
+<body onpageshow="lesson('IqhdIBBnKhg')">
 <nav id="mobile_nav" class="fluid hide_tablet hide_desktop">
 		<ul id="list_mobile_nav" class="fluid fluidList">
 			<li class="item_list_mobile_nav"><a href="../../../../">Home</a></li>
@@ -162,77 +162,8 @@
         <div class="spacer hide_desktop hide_tablet"></div>
     	<div class="content_header"><p class="study_header">numbers: 11-20<span class="jp"> (数字: 十一－二十)</span></p></div>
         <div id="study_container">
-        	<div class="study_body">
-            	<div class="character">
-                    <p class="jp" style="font-size:64px;">十一</p>
-                    <p class="en" style="font-size:20px;">eleven</p>
-                    <figure class="play">
-                        <button onClick="draw('IqhdIBBnKhg',9,22)"></button>
-                    </figure>
-                </div>
-                <div class="character">
-                    <p class="jp" style="font-size:64px;">十二</p>
-                    <p class="en" style="font-size:20px;">twelve</p>
-                    <figure class="play">
-                        <button onClick="draw('IqhdIBBnKhg',24,39)"></button>
-                    </figure>
-                </div>
-                <div class="character">
-                    <p class="jp" style="font-size:64px;">十三</p>
-                    <p class="en" style="font-size:20px;">thirteen</p>
-                    <figure class="play">
-                        <button onClick="draw('IqhdIBBnKhg',41,59)"></button>
-                    </figure>
-                </div>
-                <div class="character">
-                    <p class="jp" style="font-size:64px;">十四</p>
-                    <p class="en" style="font-size:20px;">fourteen</p>
-                    <figure class="play">
-                        <button onClick="draw('IqhdIBBnKhg',61,84)"></button>
-                    </figure>
-                </div>
-                <div class="character">
-                    <p class="jp" style="font-size:64px;">十五</p>
-                    <p class="en" style="font-size:20px;">fifteen</p>
-                    <figure class="play">
-                        <button onClick="draw('IqhdIBBnKhg',87,108)"></button>
-                    </figure>
-                </div>
-                <div class="character">
-                    <p class="jp" style="font-size:64px;">十六</p>
-                    <p class="en" style="font-size:20px;">sixteen</p>
-                    <figure class="play">
-                        <button onClick="draw('IqhdIBBnKhg',110,130)"></button>
-                    </figure>
-                </div>
-                <div class="character">
-                    <p class="jp" style="font-size:64px;">十七</p>
-                    <p class="en" style="font-size:20px;">seventeen</p>
-                    <figure class="play">
-                        <button onClick="draw('IqhdIBBnKhg',132,150)"></button>
-                    </figure>
-                </div>
-                <div class="character">
-                    <p class="jp" style="font-size:64px;">十八</p>
-                    <p class="en" style="font-size:20px;">eighteen</p>
-                    <figure class="play">
-                        <button onClick="draw('IqhdIBBnKhg',152,165)"></button>
-                    </figure>
-                </div>
-                <div class="character">
-                    <p class="jp" style="font-size:64px;">十九</p>
-                    <p class="en" style="font-size:20px;">nineteen</p>
-                    <figure class="play">
-                        <button onClick="draw('IqhdIBBnKhg',168,185)"></button>
-                    </figure>
-                </div>
-                <div class="character">
-                    <p class="jp" style="font-size:64px;">二十</p>
-                    <p class="en" style="font-size:20px;">twenty</p>
-                    <figure class="play">
-                        <button onClick="draw('IqhdIBBnKhg',188,203)"></button>
-                    </figure>
-                </div>
+        	<div class="study_body" style="padding-left:0;">
+            	<div id="lesson"></div>
             </div>
 			<div class="page_container">
 				<button class="page_button" onClick="window.location.href='../1-10/index.html'">
@@ -292,9 +223,10 @@
     	©2015-2017 Learn Kanji
     </div>
 </div>
-<script src="../../../../js/kanji-video-play.js" type="text/javascript"></script>
-<script src="../../../../js/hammer.min.js"></script>
-<script src="../../../../js/better-simple-slideshow.min.js"></script>
+<script src="../../../js/kanji-video-play.js" type="text/javascript"></script>
+<script src="../../../js/menu-close.js" type="text/javascript"></script>
+<script src="../../../js/hammer.min.js"></script>
+<script src="../../../js/better-simple-slideshow.min.js"></script>
 <script>
 	var opts = {
 		auto : {

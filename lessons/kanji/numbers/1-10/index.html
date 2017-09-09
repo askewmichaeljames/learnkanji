@@ -31,7 +31,7 @@
 </script>
 </head>
 
-<body>
+<body onpageshow="lesson('8r3rYyOO27M')">
 <nav id="mobile_nav" class="fluid hide_tablet hide_desktop">
 		<ul id="list_mobile_nav" class="fluid fluidList">
 			<li class="item_list_mobile_nav"><a href="../../../../">Home</a></li>
@@ -142,8 +142,6 @@
             </ul>
 		</nav>
     </header>
-    
-	<div id="character_pop"></div>
 
     <article class="article_off_center">
         <div class="spacer hide_desktop hide_tablet"></div>
@@ -162,77 +160,8 @@
         <div class="spacer hide_desktop hide_tablet"></div>
     	<div class="content_header"><p class="study_header">numbers: 1-10<span class="jp"> (数字: 一－十)</span></p></div>
         <div id="study_container">
-        	<div class="study_body">
-            	<div class="character">
-                    <p class="jp" style="font-size:64px;">一</p>
-                    <p class="en" style="font-size:20px;">one</p>
-                    <figure class="play">
-                        <button onClick="draw('8r3rYyOO27M',9,16)"></button>
-                    </figure>
-                </div>
-                <div class="character">
-                    <p class="jp" style="font-size:64px;">二</p>
-                    <p class="en" style="font-size:20px;">two</p>
-                    <figure class="play">
-                        <button onClick="draw('8r3rYyOO27M',19,30)"></button>
-                    </figure>
-                </div>
-                <div class="character">
-                    <p class="jp" style="font-size:64px;">三</p>
-                    <p class="en" style="font-size:20px;">three</p>
-                    <figure class="play">
-                        <button onClick="draw('8r3rYyOO27M',32,45)"></button>
-                    </figure>
-                </div>
-                <div class="character">
-                    <p class="jp" style="font-size:64px;">四</p>
-                    <p class="en" style="font-size:20px;">four</p>
-                    <figure class="play">
-                        <button onClick="draw('8r3rYyOO27M',47,67)"></button>
-                    </figure>
-                </div>
-                <div class="character">
-                    <p class="jp" style="font-size:64px;">五</p>
-                    <p class="en" style="font-size:20px;">five</p>
-                    <figure class="play">
-                        <button onClick="draw('8r3rYyOO27M',70,89)"></button>
-                    </figure>
-                </div>
-                <div class="character">
-                    <p class="jp" style="font-size:64px;">六</p>
-                    <p class="en" style="font-size:20px;">six</p>
-                    <figure class="play">
-                        <button onClick="draw('8r3rYyOO27M',91,110)"></button>
-                    </figure>
-                </div>
-                <div class="character">
-                    <p class="jp" style="font-size:64px;">七</p>
-                    <p class="en" style="font-size:20px;">seven</p>
-                    <figure class="play">
-                        <button onClick="draw('8r3rYyOO27M',112,123)"></button>
-                    </figure>
-                </div>
-                <div class="character">
-                    <p class="jp" style="font-size:64px;">八</p>
-                    <p class="en" style="font-size:20px;">eight</p>
-                    <figure class="play">
-                        <button onClick="draw('8r3rYyOO27M',124,132)"></button>
-                    </figure>
-                </div>
-                <div class="character">
-                    <p class="jp" style="font-size:64px;">九</p>
-                    <p class="en" style="font-size:20px;">nine</p>
-                    <figure class="play">
-                        <button onClick="draw('8r3rYyOO27M',134,147)"></button>
-                    </figure>
-                </div>
-                <div class="character">
-                    <p class="jp" style="font-size:64px;">十</p>
-                    <p class="en" style="font-size:20px;">ten</p>
-                    <figure class="play">
-                        <button onClick="draw('8r3rYyOO27M',148,157)"></button>
-                    </figure>
-                </div>
+        	<div class="study_body" style="padding-left:0;">
+            	<div id="lesson"></div>
             </div>
 			<div class="page_container">
 				<button class="page_button" onClick="window.location.href='../10-100/index.html'">
@@ -292,9 +221,10 @@
     	©2015-2017 Learn Kanji
     </div>
 </div>
-<script src="../../../../js/kanji-video-play.js" type="text/javascript"></script>
-<script src="../../../../js/hammer.min.js"></script>
-<script src="../../../../js/better-simple-slideshow.min.js"></script>
+<script src="../../../js/kanji-video-play.js" type="text/javascript"></script>
+<script src="../../../js/menu-close.js" type="text/javascript"></script>
+<script src="../../../js/hammer.min.js"></script>
+<script src="../../../js/better-simple-slideshow.min.js"></script>
 <script>
 	var opts = {
 		auto : {
