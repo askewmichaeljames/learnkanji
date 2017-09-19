@@ -12,7 +12,7 @@ function draw(id,start,end) {
 	$("#character_pop").addClass("character_vis");
 	document.body.style.overflow = "hidden";		
 	
-	var params = "?loop=1&rel=0&enablejsapi=1&start=" + start + "&end=" + end;
+	var params = "?autoplay=1&loop=1&rel=0&enablejsapi=1&start=" + start + "&end=" + end;
 	
 	if (modal.clientWidth >= 900) {
 		var width = modal.clientWidth * .5;
@@ -100,7 +100,7 @@ function draw(id,start,end) {
 function lesson(id) {
 	var lessonDiv = document.getElementById('lesson');
 	
-	var params = "?loop=1&rel=0&enablejsapi=1";
+	var params = "?autoplay=1loop=1&rel=0&enablejsapi=1";
 	
 	if (500 < window.innerWidth) {
 		var width = lessonDiv.clientWidth * .7;
