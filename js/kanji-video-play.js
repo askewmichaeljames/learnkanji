@@ -132,18 +132,11 @@ function lesson(id) {
 		lessonDiv.innerHTML += "<iframe id=" + quote + "ytplayer" + quote + "width =" + quote + width + quote + " height=" + quote + height + quote + " src=" + quote + url + id + params + quote + " frameborder=0" + quote + " allowfullscreen></iframe>";
 		
 		player = new YT.Player ('ytplayer', {
-			events: { 'onStateChange': onPlayerStateChange, 'onReady': onPlayerReady }
+			events: { 'onReady': onPlayerReady }
 		});
-	}
-	
-	function onPlayerStateChange(event) {
-		if (event.data == YT.PlayerState.BUFFERING) {
-        	event.target.setPlaybackQuality('hd720');
-    	}
 	}
 			
 	function onPlayerReady(event) {
 		event.target.setPlaybackQuality('hd720');
-	}
 	}
 }
