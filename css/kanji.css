@@ -433,7 +433,7 @@ img, object, embed, video {
 	color:#fff;/*hsla(30,100%,60%,1.00);*/
 /*	font-family: 'Walter Turncoat', cursive;*/
 	font-family: "felt-tip-woman";
-	font-size: 24px;
+	font-size: 40px;
 	font-weight: 300;
 	margin-left: 5px;
 }
@@ -491,18 +491,16 @@ img, object, embed, video {
 	margin-left: 2%;
 	padding-left: 5px;
 	padding-right: 5px;
-    text-align: left;
-	word-wrap: break-word;
-    
-    
+    text-align: center;
+	word-wrap: break-word;    
 }
 
-.lec-video {
+.lec-video, .example {
     display: block;
     float: left;
     clear: none;
     height: auto;
-    width: 90%;
+    width: 95%;
     min-width: 100px;
     margin-top: 2%;
 	margin-left: 2%;
@@ -510,26 +508,15 @@ img, object, embed, video {
 	padding-right: 5px;
     text-align: left;
 	word-wrap: break-word;
-    
-    
 }
-.example {
-	display: block;
-	float: left;
-	clear: none;
-	height: auto;
-	width: 95%;
-	min-width: 100px;
-	margin-top: 2%;
-	margin-left: 2%;
-	padding-left: 5px;
-	padding-right: 5px;
-	text-align: left;
-	word-wrap: break-word;
-	
+
+.red {
+	color:#D48383
 }
+
 .list_box {
 	display: block;
+	align-items: center; 
 	float: left;
 	clear: none;
 	height: auto;
@@ -545,14 +532,26 @@ img, object, embed, video {
 	border: 1px solid #262626;
 }
 
+.list_box td {
+	min-width: 100px;
+	padding-bottom: 15px;
+}
+
+/*.list_box {
+	margin: auto;
+	width: 95%;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.670588);
+}*/
+
 .jp_list {
 	font-family: "ro-nikkatsu-sei-kai-std";
-	font-size: 35px;
+	font-size: 25px;
 }
 
 .en_list {
 	font-family: "felt-tip-woman";
-    font-size: 35px;
+    font-size: 25px;
 }
 
 
@@ -573,13 +572,14 @@ img, object, embed, video {
     transition-duration: 0.4s;
 }
 
-#index_container {
+#index_container, #list_container {
 	background-color: rgba(0, 0, 0, 0.670588);
 	overflow:hidden;
 	padding-bottom: 10px;
 	margin-bottom: 20px;
 	color: #fff;
 }
+
 
 @media only screen and (max-width: 1000px) {
 .study_body {
@@ -604,7 +604,8 @@ img, object, embed, video {
 	margin-right:auto;
 	margin-left:auto;
 }
-    .kanji {
+
+.kanji {
     clear:both;
 	float: none;
 	width: 90%;
