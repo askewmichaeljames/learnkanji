@@ -47,8 +47,6 @@
 <nav id="mobile_nav" class="fluid hide_tablet hide_desktop">
 		<ul id="list_mobile_nav" class="fluid fluidList">
 			<li class="item_list_mobile_nav"><a href="../.">Home</a></li>
-            <li class="item_list_mobile_nav"><a href="../hiragana/aiueo">Hiragana</a></li>
-            <li class="item_list_mobile_nav"><a href="../katakana/aiueo">Katakana</a></li>
             <li class="item_list_mobile_nav mobile_dropdown">
             	<input type="checkbox" />
                 <a href="#" data-toggle="mobile_dropdown">Kanji</a>
@@ -56,6 +54,15 @@
                     <li><a href="../grade-one">Grade One</a></li>
                 </ul>
             </li>
+            <li class="item_list_mobile_nav"><a href="../hiragana/aiueo">Hiragana</a></li>
+            <li class="item_list_mobile_nav"><a href="../katakana/aiueo">Katakana</a></li>
+            <!--<li class="item_list_mobile_nav mobile_dropdown">
+            	<input type="checkbox" />
+                <a href="#" data-toggle="mobile_dropdown">Kanji</a>
+                <ul class="fluid fluidList mobile_dropdown-menu">
+                    <li><a href="../grade-one">Grade One</a></li>
+                </ul>
+            </li>-->
            <!-- <li class="item_list_mobile_nav"><a href="../grade-one">Grade One</a></li> -->
            
             
@@ -116,8 +123,6 @@
 		<nav id="main_nav" class="fluid">
             <ul id="list_main_nav" class="fluid fluidList">
                 <li class="item_list_main_nav"><a href="../.">Home</a></li>
-                <li class="item_list_main_nav"><a href="../hiragana/aiueo">Hiragana</a></li>
-                <li class="item_list_main_nav"><a href="../katakana/aiueo">Katakana</a></li>
                 <li class="item_list_main_nav dropdown">
                     <input type="checkbox" />
                     <a href="#" data-toggle="dropdown">Kanji</a>
@@ -125,6 +130,15 @@
                         <li><a href="../grade-one">Grade One</a></li>
                     </ul>
                 </li>
+                <li class="item_list_main_nav"><a href="../hiragana/aiueo">Hiragana</a></li>
+                <li class="item_list_main_nav"><a href="../katakana/aiueo">Katakana</a></li>
+                <!--<li class="item_list_main_nav dropdown">
+                    <input type="checkbox" />
+                    <a href="#" data-toggle="dropdown">Kanji</a>
+                    <ul class="fluid fluidList dropdown-menu">
+                        <li><a href="../grade-one">Grade One</a></li>
+                    </ul>
+                </li>-->
                 <!-- <li class="item_list_main_nav"><a href="../grade-one">Grade One</a></li> -->
                 
                 
