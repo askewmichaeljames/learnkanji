@@ -269,6 +269,11 @@ img, object, embed, video {
 	min-height: 50px;
 	height: auto;
 }
+
+.ad3 {
+	width:auto;
+	clear:both;
+}
 /*****/
 
 .jp {
