@@ -553,9 +553,14 @@ img, object, embed, video {
 		float: left;
 		display: inline-block;
 	}
+	.list_box tr:first-child td, .list_box tr:nth-child(2) td {
+		border: none;
+	}
+	.list_box td:nth-child(1), .list_box td:nth-child(2){
+		border-top: 1px solid #333534;
+	}
 	.list_box td:nth-child(3) {
 		clear: both;
-		border-bottom: 1px solid #333534;
 	}
 }
 /*.list_box {
