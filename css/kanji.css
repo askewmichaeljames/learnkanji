@@ -540,11 +540,24 @@ img, object, embed, video {
 
 .list_box td {
 	min-width: 100px;
-    
-    
 	padding-bottom: 15px;
 }
+.list_box td {
+	min-width: 100px;
+    padding-bottom: 15px;
+	padding-top: 15px;
+}
 
+@media only screen and (max-width:700px){
+	.list_box td {
+		float: left;
+		display: inline-block;
+	}
+	.list_box td:nth-child(3) {
+		clear: both;
+		border-bottom: 1px solid #333534;
+	}
+}
 /*.list_box {
 	margin: auto;
 	width: 95%;
