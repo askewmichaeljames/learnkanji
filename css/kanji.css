@@ -518,6 +518,21 @@ img, object, embed, video {
 	word-wrap: break-word;    
 }
 
+.kanji_read {
+    display: block;
+    float: left;
+    clear: none;
+    height: auto;
+    width: 40%;
+    min-width: 100px;
+    margin-top: 2%;
+	margin-left: 2%;
+	padding-left: 5px;
+	padding-right: 5px;
+    text-align: left;
+	word-wrap: break-word;    
+}
+
 .lec-video, .example {
     display: block;
     float: left;
@@ -657,6 +672,14 @@ img, object, embed, video {
 }
 
 .kanji {
+    clear:both;
+	float: none;
+	width: 90%;
+	margin-right:auto;
+	margin-left:auto;
+    }
+    
+.kanji_read {
     clear:both;
 	float: none;
 	width: 90%;
