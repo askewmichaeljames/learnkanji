@@ -4,111 +4,142 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>http://kanjivideos.com/</loc>
-  <lastmod>2019-04-24T00:37:25+00:00</lastmod>
+  <lastmod>2019-05-13T22:03:03+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/.</loc>
-  <lastmod>2019-04-24T00:37:25+00:00</lastmod>
+  <lastmod>2019-05-13T22:03:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/grade-one/</loc>
-  <lastmod>2019-04-17T01:50:42+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:39+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/grade-two/</loc>
-  <lastmod>2019-04-24T00:37:23+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:48+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/hiragana/aiueo/</loc>
-  <lastmod>2019-04-17T01:50:53+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:55+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/katakana/aiueo/</loc>
-  <lastmod>2019-04-17T01:51:03+00:00</lastmod>
+  <lastmod>2019-05-13T22:03:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/survey/jp/</loc>
-  <lastmod>2019-04-17T01:51:14+00:00</lastmod>
+  <lastmod>2019-05-13T22:03:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/survey/en/</loc>
-  <lastmod>2019-04-17T01:51:13+00:00</lastmod>
+  <lastmod>2019-05-13T22:03:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/grade-one/one/</loc>
-  <lastmod>2019-04-19T01:38:03+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:40+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/grade-one/two/</loc>
-  <lastmod>2019-04-19T01:38:06+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:45+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/grade-one/three/</loc>
-  <lastmod>2019-04-19T01:38:05+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:44+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/grade-one/four/</loc>
-  <lastmod>2019-04-19T01:38:02+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:37+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/grade-one/five/</loc>
-  <lastmod>2019-04-19T01:38:01+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:36+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/grade-one/six/</loc>
-  <lastmod>2019-04-19T01:38:04+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:42+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/grade-one/seven/</loc>
-  <lastmod>2019-04-17T01:50:44+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:41+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/grade-one/eight/</loc>
-  <lastmod>2019-04-17T01:50:38+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:35+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://kanjivideos.com/grade-one/nine/</loc>
+  <lastmod>2019-05-13T22:02:40+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://kanjivideos.com/grade-one/ten/</loc>
+  <lastmod>2019-05-13T22:02:43+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://kanjivideos.com/grade-one/hundred/</loc>
+  <lastmod>2019-05-13T22:02:38+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/grade-two/spring/</loc>
-  <lastmod>2019-04-19T01:38:09+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:51+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/grade-two/summer/</loc>
-  <lastmod>2019-04-19T01:38:10+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:52+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/grade-two/autumn/</loc>
-  <lastmod>2019-04-19T01:38:08+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:46+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/grade-two/winter/</loc>
-  <lastmod>2019-04-24T00:37:24+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:54+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/grade-two/east/</loc>
-  <lastmod>2019-04-24T00:37:22+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:47+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://kanjivideos.com/grade-two/west/</loc>
+  <lastmod>2019-05-13T22:02:53+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://kanjivideos.com/grade-two/south/</loc>
+  <lastmod>2019-05-13T22:02:50+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://kanjivideos.com/grade-two/north/</loc>
+  <lastmod>2019-05-13T22:02:49+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -123,47 +154,47 @@
 </url>
 <url>
   <loc>http://kanjivideos.com/hiragana/kakikukeko/</loc>
-  <lastmod>2019-04-17T01:50:55+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:56+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/hiragana/sashisuseso/</loc>
-  <lastmod>2019-04-17T01:50:59+00:00</lastmod>
+  <lastmod>2019-05-13T22:03:00+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/hiragana/tachitsuteto/</loc>
-  <lastmod>2019-04-17T01:51:00+00:00</lastmod>
+  <lastmod>2019-05-13T22:03:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/hiragana/naninuneno/</loc>
-  <lastmod>2019-04-17T01:50:57+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:58+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/hiragana/hahihuheho/</loc>
-  <lastmod>2019-04-17T01:50:54+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:55+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/hiragana/mamimumemo/</loc>
-  <lastmod>2019-04-17T01:50:56+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:57+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/hiragana/yayuyo/</loc>
-  <lastmod>2019-04-17T01:51:02+00:00</lastmod>
+  <lastmod>2019-05-13T22:03:02+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/hiragana/rarirurero/</loc>
-  <lastmod>2019-04-17T01:50:58+00:00</lastmod>
+  <lastmod>2019-05-13T22:02:59+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/hiragana/wawon/</loc>
-  <lastmod>2019-04-17T01:51:01+00:00</lastmod>
+  <lastmod>2019-05-13T22:03:01+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -178,47 +209,47 @@
 </url>
 <url>
   <loc>http://kanjivideos.com/katakana/kakikukeko/</loc>
-  <lastmod>2019-04-17T01:51:05+00:00</lastmod>
+  <lastmod>2019-05-13T22:03:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/katakana/sashisuseso/</loc>
-  <lastmod>2019-04-17T01:51:09+00:00</lastmod>
+  <lastmod>2019-05-13T22:03:09+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/katakana/tachitsuteto/</loc>
-  <lastmod>2019-04-17T01:51:10+00:00</lastmod>
+  <lastmod>2019-05-13T22:03:09+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/katakana/naninuneno/</loc>
-  <lastmod>2019-04-17T01:51:07+00:00</lastmod>
+  <lastmod>2019-05-13T22:03:07+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/katakana/hahihuheho/</loc>
-  <lastmod>2019-04-17T01:51:04+00:00</lastmod>
+  <lastmod>2019-05-13T22:03:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/katakana/mamimumemo/</loc>
-  <lastmod>2019-04-17T01:51:06+00:00</lastmod>
+  <lastmod>2019-05-13T22:03:06+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/katakana/yayuyo/</loc>
-  <lastmod>2019-04-17T01:51:12+00:00</lastmod>
+  <lastmod>2019-05-13T22:03:11+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/katakana/rarirurero/</loc>
-  <lastmod>2019-04-17T01:51:08+00:00</lastmod>
+  <lastmod>2019-05-13T22:03:08+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>http://kanjivideos.com/katakana/wawon/</loc>
-  <lastmod>2019-04-17T01:51:11+00:00</lastmod>
+  <lastmod>2019-05-13T22:03:10+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
