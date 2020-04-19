@@ -1,6 +1,6 @@
 // JavaScript Document
 var modal = document.getElementById('character_pop');
-var url = 'http://www.youtube.com/embed/';
+var url = 'https://www.youtube.com/embed/';
 var quote = '"';		
 
 function draw(id,start,end) {

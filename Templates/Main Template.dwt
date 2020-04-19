@@ -238,7 +238,7 @@
 			var width = '420';
 			var height = '315';
 			var frameborder = '0';
-			var url = 'http://www.youtube.com/embed/';
+			var url = 'https://www.youtube.com/embed/';
 			var quote = '"';
 			
 			var newVideoId;
