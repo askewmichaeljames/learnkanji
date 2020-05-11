@@ -711,22 +711,50 @@ img, object, embed, video {
 	margin-bottom: 10px;*/
 }
 
+/******old play button, pre-youtube branding******/
+/*.play button {*/
+/*	width: 50px;*/
+/*	height: 50px;*/
+/*	background: #333534;*/
+/*	border: none;*/
+/*	border-radius: 100%;*/
+/*	margin: auto;*/
+/*	cursor: pointer;*/
+/*	-webkit-transition-duration: 0.4s; /* Safari */*/
+/*    transition-duration: 0.4s;*/
+/*}*/
+/**/
+/*below for white triangular play button*/
+/*.play button::after {*/
+/*	content: '';*/
+/*	display: inline-block;*/
+/*	position: relative;*/
+/*	top: 1px;*/
+/*	left: 3px;*/
+/*	border-style: solid;*/
+/*	border-width: 10px 0 10px 20px;*/
+/*	border-color: transparent transparent transparent white;*/
+/*}*/
+/**/
+/*.play button:hover {*/
+/*	outline: 0;*/
+/*	border: 1px solid hsl(210, 58%, 69%);*/
+/*	box-shadow: 0 0 0 3px hsla(210, 76%, 57%, 0.5);*/
+/*}*/
+/******old play button, pre-youtube branding******/
+
 .play button {
-	width: 50px;
+	width: 71px;
 	height: 50px;
-	background: #333534;
-	border: none;
-	border-radius: 100%;
+	background-image: url("../images/yt_icon_mono_light.png");
+	background-size: cover;
+	background-color: transparent;
+	-webkit-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
 	margin: auto;
 	cursor: pointer;
-	-webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-}
-
-.play button:hover {
-	outline: 0;
-	border: 1px solid hsl(210, 58%, 69%);
-	box-shadow: 0 0 0 3px hsla(210, 76%, 57%, 0.5);
+	border: none;
 }
 
 .play button::after {
@@ -738,6 +766,12 @@ img, object, embed, video {
 	border-style: solid;
 	border-width: 10px 0 10px 20px;
 	border-color: transparent transparent transparent white;
+}
+
+.play button:hover {
+	outline: 0;
+	border: 1px solid hsl(210, 58%, 69%);
+	box-shadow: 0 0 0 3px hsla(210, 76%, 57%, 0.5);
 }
 
 /*.page_button {
