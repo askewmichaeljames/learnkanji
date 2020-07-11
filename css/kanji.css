@@ -134,6 +134,19 @@ img, object, embed, video {
 	transition: opacity 1.2s;
 }
 
+/******Begin Blogger Styles*****/
+
+/****** Mobile post background ******/
+.mobile-date-outer.date-outer, .date-outer {
+	background-color: rgba(0, 0, 0, 0.670588);
+    padding: 5px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/******End Blogger Styles******/
+
 @media only screen and (min-width: 480px) {
 .slideshow figure {
 	z-index: -2;
@@ -1262,16 +1275,6 @@ img, object, embed, video {
 	display: none !important;
 }
 /*****/
-	
-/****** Mobile post background ******/
-.mobile-date-outer.date-outer, .date-outer {
-	background-color: rgba(0, 0, 0, 0.670588);
-    padding: 5px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
 
 /***for header***/
 #head_container_1 {
